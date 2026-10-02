@@ -1,0 +1,6 @@
+,Top-1,Top-3,Top-5,MRR,mean rank,top-1 is PCI centre %
+nearest hospital,0.381,0.715,0.827,0.574,3.618,73.626
+nearest PCI centre,0.476,0.799,0.88,0.654,2.872,100.0
+largest prior-year volume,0.094,0.29,0.408,0.261,8.099,
+logit: distance only,0.391,0.714,0.828,0.578,3.609,
+logit: full,0.513,0.821,0.894,0.681,2.627,97.828

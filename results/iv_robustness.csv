@@ -1,0 +1,31 @@
+specification,outcome,N,first-stage F,effective F,OLS (pp),2SLS (pp),SE,95% CI,p,AR 95% CI,Hansen J p,endogeneity p
+"1 baseline: km instruments (>5, >20 km)",pci_day0,38559,118.1,129.6,-15.79,-23.37,3.57,"(np.float64(-30.4), np.float64(-16.4))",6.1e-11,"(np.float64(-32.0), np.float64(-15.2))",0.547,0.026
+"1 baseline: km instruments (>5, >20 km)",died,38559,118.1,129.6,0.63,0.49,1.81,"(np.float64(-3.1), np.float64(4.0))",0.79,"(np.float64(-3.5), np.float64(4.2))",0.257,0.93
+"1 baseline: km instruments (>5, >20 km)",died_or_hospice,38559,118.1,129.6,0.38,0.34,1.95,"(np.float64(-3.5), np.float64(4.2))",0.86,"(np.float64(-3.2), np.float64(3.5))",0.127,0.98
+"2 + ZIP SES & rurality (ACS, RUCA)",pci_day0,38559,62.4,68.9,-15.23,-17.25,4.51,"(np.float64(-26.1), np.float64(-8.4))",0.00013,"(np.float64(-28.5), np.float64(-6.5))",0.714,0.65
+"2 + ZIP SES & rurality (ACS, RUCA)",died,38559,62.4,68.9,0.57,-0.74,2.44,"(np.float64(-5.5), np.float64(4.0))",0.76,"(np.float64(-6.0), np.float64(4.0))",0.223,0.58
+"2 + ZIP SES & rurality (ACS, RUCA)",died_or_hospice,38559,62.4,68.9,0.35,-0.17,2.61,"(np.float64(-5.3), np.float64(4.9))",0.95,"(np.float64(-5.2), np.float64(4.0))",0.11,0.84
+"3 road-time instruments (>5, >15 min)",pci_day0,38559,133.1,162.4,-15.8,-22.62,3.48,"(np.float64(-29.4), np.float64(-15.8))",7.8e-11,"(np.float64(-31.0), np.float64(-14.5))",0.65,0.04
+"3 road-time instruments (>5, >15 min)",died,38559,133.1,162.4,0.63,0.66,1.76,"(np.float64(-2.8), np.float64(4.1))",0.71,"(np.float64(-1.8), np.float64(3.0))",0.06,0.99
+"3 road-time instruments (>5, >15 min)",died_or_hospice,38559,133.1,162.4,0.38,0.78,1.88,"(np.float64(-2.9), np.float64(4.5))",0.68,"(np.float64(-2.0), np.float64(3.2))",0.07,0.83
+4 road-time instruments + SES & rurality,pci_day0,38559,73.9,89.7,-15.24,-16.55,4.38,"(np.float64(-25.1), np.float64(-8.0))",0.00016,"(np.float64(-27.5), np.float64(-6.0))",0.763,0.76
+4 road-time instruments + SES & rurality,died,38559,73.9,89.7,0.57,-0.37,2.31,"(np.float64(-4.9), np.float64(4.1))",0.87,"(np.float64(-3.8), np.float64(3.0))",0.067,0.68
+4 road-time instruments + SES & rurality,died_or_hospice,38559,73.9,89.7,0.34,0.48,2.45,"(np.float64(-4.3), np.float64(5.3))",0.85,"(np.float64(-3.5), np.float64(4.0))",0.081,0.96
+"5 baseline, 2017-2019 only",pci_day0,28825,95.1,111.2,-15.9,-23.23,4.02,"(np.float64(-31.1), np.float64(-15.4))",7.3e-09,"(np.float64(-33.5), np.float64(-13.8))",0.917,0.059
+"5 baseline, 2017-2019 only",died,28825,95.1,111.2,0.56,1.81,2.08,"(np.float64(-2.3), np.float64(5.9))",0.38,"(np.float64(-3.0), np.float64(6.8))",0.588,0.54
+"5 baseline, 2017-2019 only",died_or_hospice,28825,95.1,111.2,0.3,1.61,2.31,"(np.float64(-2.9), np.float64(6.1))",0.49,"(np.float64(-3.5), np.float64(6.5))",0.308,0.56
+"6 baseline, without cardiac arrest",pci_day0,36658,114.9,125.1,-15.68,-23.53,3.57,"(np.float64(-30.5), np.float64(-16.5))",4.6e-11,"(np.float64(-32.0), np.float64(-15.5))",0.509,0.02
+"6 baseline, without cardiac arrest",died,36658,114.9,125.1,0.33,-0.65,1.79,"(np.float64(-4.2), np.float64(2.9))",0.72,"(np.float64(-4.8), np.float64(3.5))",0.534,0.57
+"6 baseline, without cardiac arrest",died_or_hospice,36658,114.9,125.1,0.15,-0.66,1.9,"(np.float64(-4.4), np.float64(3.1))",0.73,"(np.float64(-4.8), np.float64(3.2))",0.238,0.66
+"7 alternative cut-offs (>10, >30 km)",pci_day0,38559,115.9,116.6,-15.79,-25.6,3.7,"(np.float64(-32.8), np.float64(-18.4))",4.2e-12,"(np.float64(-35.0), np.float64(-17.0))",0.895,0.0049
+"7 alternative cut-offs (>10, >30 km)",died,38559,115.9,116.6,0.63,-0.85,1.77,"(np.float64(-4.3), np.float64(2.6))",0.63,"(np.float64(-4.8), np.float64(3.0))",0.336,0.39
+"7 alternative cut-offs (>10, >30 km)",died_or_hospice,38559,115.9,116.6,0.38,-0.89,1.9,"(np.float64(-4.6), np.float64(2.8))",0.64,"(np.float64(-5.0), np.float64(3.2))",0.359,0.49
+8 continuous instrument log(1+km),pci_day0,38559,254.4,254.7,-15.79,-23.66,3.56,"(np.float64(-30.6), np.float64(-16.7))",3.1e-11,"(np.float64(-30.8), np.float64(-17.0))",,0.022
+8 continuous instrument log(1+km),died,38559,254.4,254.7,0.63,0.91,1.8,"(np.float64(-2.6), np.float64(4.4))",0.61,"(np.float64(-2.5), np.float64(4.2))",,0.87
+8 continuous instrument log(1+km),died_or_hospice,38559,254.4,254.7,0.38,0.99,1.94,"(np.float64(-2.8), np.float64(4.8))",0.61,"(np.float64(-2.8), np.float64(4.8))",,0.75
+9 without shock/arrest controls (possibly post-treatment),pci_day0,38559,118.1,129.6,-15.85,-23.21,3.56,"(np.float64(-30.2), np.float64(-16.2))",7e-11,"(np.float64(-31.8), np.float64(-15.0))",0.524,0.03
+9 without shock/arrest controls (possibly post-treatment),died,38559,118.1,129.6,1.32,0.1,1.95,"(np.float64(-3.7), np.float64(3.9))",0.96,"(np.float64(-4.5), np.float64(4.5))",0.498,0.52
+9 without shock/arrest controls (possibly post-treatment),died_or_hospice,38559,118.1,129.6,1.1,-0.09,2.11,"(np.float64(-4.2), np.float64(4.1))",0.97,"(np.float64(-4.8), np.float64(4.2))",0.29,0.56
+10 excluding transferred patients with CABG,pci_day0,37996,119.7,130.3,-10.36,-22.0,3.58,"(np.float64(-29.0), np.float64(-15.0))",8e-10,"(np.float64(-30.8), np.float64(-13.8))",0.57,0.00059
+10 excluding transferred patients with CABG,died,37996,119.7,130.3,1.3,0.79,1.86,"(np.float64(-2.9), np.float64(4.4))",0.67,"(np.float64(-3.0), np.float64(4.5))",0.233,0.78
+10 excluding transferred patients with CABG,died_or_hospice,37996,119.7,130.3,1.13,0.62,2.01,"(np.float64(-3.3), np.float64(4.5))",0.76,"(np.float64(-3.2), np.float64(4.0))",0.13,0.79

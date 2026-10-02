@@ -1,0 +1,4 @@
+dd_group,N,age75,female,hispanic,medicare,selfpay,diabetes,heart_failure,ckd,arrest,shock,anterior,predicted_death,first_nonpci,pci_day0,died
+<=5 km,32395,18.8,30.2,26.5,40.1,16.8,39.4,24.0,13.7,5.1,11.4,34.8,8.9,10.0,75.9,8.9
+5-20 km,2356,22.0,32.0,19.7,43.9,16.1,37.0,21.5,12.2,4.2,9.6,33.9,8.2,24.1,74.1,8.8
+>20 km,3808,22.9,31.5,19.7,45.6,14.5,37.4,24.4,12.9,3.8,10.8,34.7,8.6,39.7,68.2,8.5

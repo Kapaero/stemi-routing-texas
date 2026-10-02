@@ -1,0 +1,35 @@
+model A,model B,metric,A,B,A - B,95% CI (cluster bootstrap),p (bootstrap),McNemar p,discordant A+/B- vs A-/B+
+gradient boosting (pointwise),logit,Top-1,0.548,0.5141,0.0339,"(np.float64(0.0212), np.float64(0.0468))",<0.001,1.9e-19,661/372
+gradient boosting (pointwise),logit,Top-5,0.9047,0.8946,0.0101,"(np.float64(0.0043), np.float64(0.0161))",<0.001,,
+gradient boosting (pointwise),logit,MRR,0.7034,0.6816,0.0218,"(np.float64(0.0148), np.float64(0.0291))",<0.001,,
+gradient boosting (pointwise),logit,NLL,1.4275,1.5392,-0.1117,"(np.float64(-0.1318), np.float64(-0.0932))",<0.001,,
+MLP ranker + hospital effects,logit,Top-1,0.5423,0.5141,0.0282,"(np.float64(0.0153), np.float64(0.042))",<0.001,6.7e-12,730/490
+MLP ranker + hospital effects,logit,Top-5,0.9034,0.8946,0.0088,"(np.float64(0.0033), np.float64(0.0144))",0.0020,,
+MLP ranker + hospital effects,logit,MRR,0.7006,0.6816,0.019,"(np.float64(0.0115), np.float64(0.0267))",<0.001,,
+MLP ranker + hospital effects,logit,NLL,1.4241,1.5392,-0.1151,"(np.float64(-0.1352), np.float64(-0.0956))",<0.001,,
+MLP ranker,logit,Top-1,0.5411,0.5141,0.027,"(np.float64(0.0142), np.float64(0.0402))",<0.001,4.6e-12,667/437
+MLP ranker,logit,Top-5,0.9028,0.8946,0.0082,"(np.float64(0.0031), np.float64(0.0136))",<0.001,,
+MLP ranker,logit,MRR,0.6998,0.6816,0.0182,"(np.float64(0.0112), np.float64(0.0256))",<0.001,,
+MLP ranker,logit,NLL,1.4275,1.5392,-0.1117,"(np.float64(-0.1311), np.float64(-0.0937))",<0.001,,
+gradient boosting (pointwise),MLP ranker + hospital effects,Top-1,0.548,0.5423,0.0058,"(np.float64(-0.0057), np.float64(0.0169))",0.3420,0.1417,558/509
+gradient boosting (pointwise),MLP ranker + hospital effects,Top-5,0.9047,0.9034,0.0013,"(np.float64(-0.0035), np.float64(0.006))",0.6240,,
+gradient boosting (pointwise),MLP ranker + hospital effects,MRR,0.7034,0.7006,0.0028,"(np.float64(-0.0033), np.float64(0.0091))",0.3680,,
+gradient boosting (pointwise),MLP ranker + hospital effects,NLL,1.4275,1.4241,0.0034,"(np.float64(-0.0079), np.float64(0.0141))",0.5560,,
+logit,rule: nearest PCI centre,Top-1,0.5141,0.4758,0.0383,"(np.float64(0.0215), np.float64(0.0569))",<0.001,2.7e-22,731/405
+logit,rule: nearest PCI centre,Top-5,0.8946,0.8798,0.0148,"(np.float64(0.0067), np.float64(0.0234))",<0.001,,
+logit,rule: nearest PCI centre,MRR,0.6816,0.6537,0.0279,"(np.float64(0.0179), np.float64(0.04))",<0.001,,
+gradient boosting (pointwise),rule: nearest PCI centre,Top-1,0.548,0.4758,0.0722,"(np.float64(0.0544), np.float64(0.0925))",<0.001,7.3e-62,1015/400
+gradient boosting (pointwise),rule: nearest PCI centre,Top-5,0.9047,0.8798,0.0249,"(np.float64(0.0175), np.float64(0.033))",<0.001,,
+gradient boosting (pointwise),rule: nearest PCI centre,MRR,0.7034,0.6537,0.0497,"(np.float64(0.039), np.float64(0.0622))",<0.001,,
+logit + hospital effects,logit,Top-1,0.514,0.5141,-0.0001,"(np.float64(-0.0108), np.float64(0.0111))",0.9750,1.0000,372/373
+logit + hospital effects,logit,Top-5,0.8935,0.8946,-0.0011,"(np.float64(-0.0061), np.float64(0.004))",0.6870,,
+logit + hospital effects,logit,MRR,0.6802,0.6816,-0.0013,"(np.float64(-0.007), np.float64(0.0045))",0.6460,,
+logit + hospital effects,logit,NLL,1.5555,1.5392,0.0162,"(np.float64(0.0007), np.float64(0.0332))",0.0420,,
+"logit, road time",logit,Top-1,0.519,0.5141,0.0049,"(np.float64(-0.006), np.float64(0.016))",0.3880,0.1576,442/400
+"logit, road time",logit,Top-5,0.8981,0.8946,0.0035,"(np.float64(-0.0015), np.float64(0.0087))",0.1600,,
+"logit, road time",logit,MRR,0.6839,0.6816,0.0023,"(np.float64(-0.0038), np.float64(0.0085))",0.4670,,
+"logit, road time",logit,NLL,1.5419,1.5392,0.0027,"(np.float64(-0.0112), np.float64(0.0146))",0.7020,,
+"gradient boosting, road time",gradient boosting (pointwise),Top-1,0.556,0.548,0.008,"(np.float64(-0.0006), np.float64(0.0168))",0.0700,0.0152,415/347
+"gradient boosting, road time",gradient boosting (pointwise),Top-5,0.9019,0.9047,-0.0027,"(np.float64(-0.007), np.float64(0.0017))",0.2370,,
+"gradient boosting, road time",gradient boosting (pointwise),MRR,0.7074,0.7034,0.004,"(np.float64(-0.0007), np.float64(0.0089))",0.1020,,
+"gradient boosting, road time",gradient boosting (pointwise),NLL,1.4317,1.4275,0.0042,"(np.float64(-0.0048), np.float64(0.0133))",0.3870,,

@@ -1,0 +1,8 @@
+,Top-1,Top-3,Top-5,MRR,mean rank,Top-1 all patients,Top-5 all patients,top-1 PCI %
+nearest hospital,0.381,0.715,0.827,0.574,3.618,0.369,0.8,73.626
+nearest PCI centre,0.476,0.799,0.88,0.654,2.872,0.46,0.851,100.0
+logit,0.513,0.821,0.894,0.681,2.627,0.496,0.864,97.828
+"logit, no discharge-coded proxies",0.513,0.821,0.894,0.681,2.626,0.496,0.864,97.828
+gradient boosting,0.548,0.828,0.905,0.703,2.49,0.53,0.875,99.812
+"gradient boosting, PCI centres only",0.547,0.827,0.901,0.702,2.572,0.529,0.872,100.0
+"gradient boosting, no discharge-coded proxies",0.547,0.829,0.904,0.703,2.49,0.529,0.874,99.871

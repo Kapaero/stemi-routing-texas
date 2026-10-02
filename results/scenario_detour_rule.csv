@@ -1,0 +1,6 @@
+"detour limit, km",STEMI/yr with non-PCI nearest hospital and detour <= limit,"of them first hospital non-PCI, /yr",extra same-day PCI/yr if routed directly,95% CI,"mean detour, km"
+5,1067.8,125.2,29.3,"(np.float64(20.5), np.float64(38.0))",1.8
+10,1403.5,188.2,44.0,"(np.float64(30.8), np.float64(57.2))",3.1
+20,1656.8,267.0,62.4,"(np.float64(43.7), np.float64(81.1))",5.0
+30,1867.8,337.2,78.8,"(np.float64(55.2), np.float64(102.4))",7.1
+50,2283.5,504.0,117.8,"(np.float64(82.5), np.float64(153.1))",12.7

@@ -1,0 +1,7 @@
+policy,"PCI first, %","redirected to PCI, n",additional same-day PCI (primary-baseline),"mean detour, km (all)","mean detour, km (redirected)"
+Nearest hospital,0.0,0,0-0,0.0,0.0
+Nearest PCI centre,100.0,565,94-132,30.0,30.0
+Conditional logit,85.8,485,80-113,20.2,23.5
+Gradient boosting,97.9,553,92-129,33.7,34.4
+"Detour rule, 10 km (+ ranker)",34.9,197,33-46,1.6,4.5
+"Detour rule, 20 km (+ ranker)",47.3,267,44-62,3.7,7.8

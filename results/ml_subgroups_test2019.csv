@@ -1,0 +1,17 @@
+,N,Top-1 logit,Top-5 logit,Top-1 MLP ranker + hospital effects,Top-5 MLP ranker + hospital effects
+raceeth=Asian/PI,245,0.498,0.878,0.535,0.865
+raceeth=Black,704,0.537,0.879,0.562,0.888
+raceeth=Hispanic,1881,0.468,0.872,0.484,0.877
+raceeth=Other,756,0.503,0.873,0.55,0.894
+raceeth=White,4930,0.531,0.91,0.561,0.919
+payer_g=Commercial,3037,0.518,0.89,0.544,0.897
+payer_g=Medicaid,264,0.458,0.924,0.47,0.939
+payer_g=Medicare,3545,0.513,0.905,0.543,0.915
+payer_g=Other,196,0.556,0.867,0.587,0.878
+payer_g=Self-pay,1474,0.515,0.877,0.545,0.885
+rural=False,4394,0.522,0.883,0.536,0.889
+rural=True,4122,0.505,0.906,0.549,0.919
+age75=0,6822,0.512,0.891,0.543,0.898
+age75=1,1694,0.521,0.909,0.538,0.923
+female=0,5873,0.517,0.895,0.545,0.903
+female=1,2643,0.509,0.893,0.537,0.904
